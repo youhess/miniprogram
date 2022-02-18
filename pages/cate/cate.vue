@@ -32,7 +32,9 @@
 </template>
 
 <script>
+	import badgeMix from '@/mixins/tabbar-badge.js'
 	export default {
+		mixins:[badgeMix],
 		data() {
 			return {
 				// 动态绑定窗口可用高度
